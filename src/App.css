@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper {
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  transition: all 1s ease-out;
+  overflow: hidden;
+}
+#quote-box {
+  border-radius: 3px;
+  width: 50vw;
+  padding: 40px 50px;
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+}
+.quote-text {
+  text-align: center;
+  font-weight: 500;
+  font-size: 1.75em;
+}
+.icon {
+  font-size: 1em;
+  margin-right: 0.4em;
+}
+.quote-author {
+  padding-top: 20px;
+  font-size: 1em;
+  text-align: right;
+}
+.buttons {
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+}
+.link {
+  display: flex;
+}
+#quote-box .buttons .button#tweet-quote,
+#quote-box .buttons .button#tumblr-quote {
+  float: left;
+  padding: 0px;
+  padding-top: 8px;
+  text-align: center;
+  font-size: 1.2em;
+  margin-right: 5px;
+  height: 30px;
+  width: 40px;
+}
+
+.button {
+  height: 38px;
+  border: none;
+  border-radius: 3px;
+  color: #fff;
+  background-color: #333;
+  outline: none;
+  font-size: 0.85em;
+  padding: 8px 18px 6px 18px;
+  margin-top: 30px;
+  opacity: 1;
+  cursor: pointer;
+  background-color: rgb(189, 187, 153);
+}
+
+.footer {
+  width: 450px;
+  text-align: center;
+  display: block;
+  margin: 15px auto 30px auto;
+  font-size: 0.8em;
+  color: #fff;
+}
+.footer a {
+  font-weight: 500;
+  text-decoration: none;
+  color: #fff;
+}
